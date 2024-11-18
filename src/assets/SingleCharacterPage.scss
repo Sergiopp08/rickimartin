@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    
+}
+
+/* Centrar el contenido dentro del contenedor */
+.character-details {
+    text-align: center;
+    color: white;
+}
+
+.character-image {
+    width: 150px; /* Ancho y alto de la imagen */
+    height: 150px;
+    object-fit: cover; /* Ajusta la imagen sin distorsionarla */
+    border-radius: 50%; /* Crea el círculo */
+    margin-bottom: 20px; /* Separación entre la imagen y el texto */
+}
+

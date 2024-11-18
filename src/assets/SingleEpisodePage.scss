@@ -1,0 +1,62 @@
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.characters-container {
+    padding: 40px; /* Aumenta el padding */
+  }
+  
+  .home-carrousel {
+    max-width: 1400px; /* Aumenta el ancho máximo del carrusel */
+    margin: 0 auto;
+    padding: 40px 0; /* Aumenta el padding en el carrusel */
+  }
+  
+  .splide__slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .character-box {
+    background-color: white;
+    border-radius: 12px; /* Bordes más redondeados */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+    width: 100%;
+    max-width: 250px; /* Aumenta el tamaño máximo de las tarjetas */
+    text-align: center;
+    padding: 20px; /* Aumenta el padding dentro de la tarjeta */
+    transition: transform 0.3s ease;
+  }
+  
+  .character-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px; /* Bordes redondeados de la imagen */
+    object-fit: cover;
+    border: 3px solid black; /* Borde negro alrededor de las imágenes */
+    margin-bottom: 15px; /* Espacio entre la imagen y el nombre */
+  }
+  
+  .character-box h3 {
+    margin: 0;
+    font-size: 1.1rem; /* Ajusta el tamaño de la fuente si es necesario */
+    font-weight: bold; /* Puedes ajustar el peso de la fuente */
+  }
+  
+  .character-box:hover {
+    transform: scale(1.1); /* Efecto hover más pronunciado */
+  }
+  
+
+  h1{
+    color: white;
+    text-align: center;
+  }
+
+  router-link{
+    color: white;
+    font-size: 4rem;
+  }

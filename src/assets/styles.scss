@@ -1,0 +1,56 @@
+// Importa la fuente desde Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+// Variables globales
+$bgColor: #e0f7fa; // Azul claro
+$textColor: #2e7d32; // Verde oscuro
+$titleFont: 'Bangers', cursive; // Fuente personalizada para el título
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif; // Fuente base para el cuerpo
+    background-color: $bgColor; // Color de respaldo
+    background-image: url('/img/fondorick.jpg'); // Ruta a la imagen en carpeta public
+    background-size: cover; // Ajusta para cubrir toda la pantalla
+    background-position: center; // Centra la imagen
+    background-repeat: no-repeat; // No repite la imagen
+    background-attachment: fixed;
+    color: $textColor;
+    line-height: 1; // Mejor legibilidad
+  }
+
+header {
+  width: 100%;
+  padding: 1rem;
+//   background-color: #004d40; // Fondo verde oscuro
+  color: #ffffff; // Texto blanco para destacar
+
+  .title-container {
+    display: flex;
+    align-items: center; // Centrado vertical
+    justify-content: center; // Centrado horizontal
+
+    h1 {
+      margin: 0;
+      font-size: 6rem; // Tamaño destacado para el título
+      font-family: $titleFont; // Fuente Bangers
+      text-transform: uppercase; // Letras mayúsculas estilizadas
+      letter-spacing: 0.1rem; // Espaciado entre letras
+      
+    }
+  }
+}
+
+main {
+  padding: 5rem;
+}
+
+@import "./HomePage.scss";
+@import "./SingleEpisodePage.scss";
+@import "./SingleCharacterPage.scss";
+
